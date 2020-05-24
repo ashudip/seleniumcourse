@@ -5,20 +5,20 @@
       <![CDATA[logged in]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-05-11T22:55:29 IST" name="Suite" finished-at="2020-05-11T22:55:34 IST" duration-ms="5221">
+  <suite started-at="2020-05-24T11:59:52 IST" name="Suite" finished-at="2020-05-24T11:59:57 IST" duration-ms="4129">
     <groups>
     </groups>
-    <test started-at="2020-05-11T22:55:29 IST" name="testlogin" finished-at="2020-05-11T22:55:31 IST" duration-ms="2005">
+    <test started-at="2020-05-24T11:59:52 IST" name="testlogin" finished-at="2020-05-24T11:59:53 IST" duration-ms="483">
       <class name="com.w2a.testcases.LoginClass">
-        <test-method signature="logintest()[pri:0, instance:com.w2a.testcases.LoginClass@76f2bbc1]" started-at="2020-05-11T22:55:29 IST" name="logintest" finished-at="2020-05-11T22:55:31 IST" duration-ms="1675" status="PASS">
+        <test-method signature="logintest()[pri:0, instance:com.w2a.testcases.LoginClass@78ffe6dc]" started-at="2020-05-24T11:59:53 IST" name="logintest" finished-at="2020-05-24T11:59:53 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
       </class> <!-- com.w2a.testcases.LoginClass -->
     </test> <!-- testlogin -->
-    <test started-at="2020-05-11T22:55:31 IST" name="testaddcustomer" finished-at="2020-05-11T22:55:33 IST" duration-ms="1766">
+    <test started-at="2020-05-24T11:59:53 IST" name="testaddcustomer" finished-at="2020-05-24T11:59:55 IST" duration-ms="2308">
       <class name="com.w2a.testcases.AddCustomerTest">
-        <test-method signature="addcustomertest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@3e6ef8ad]" started-at="2020-05-11T22:55:31 IST" name="addcustomertest" data-provider="getdata" finished-at="2020-05-11T22:55:32 IST" duration-ms="932" status="PASS">
+        <test-method signature="addcustomertest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@3e6ef8ad]" started-at="2020-05-24T11:59:54 IST" name="addcustomertest" data-provider="getdata" finished-at="2020-05-24T11:59:55 IST" duration-ms="1191" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addcustomertest -->
-        <test-method signature="addcustomertest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@3e6ef8ad]" started-at="2020-05-11T22:55:32 IST" name="addcustomertest" data-provider="getdata" finished-at="2020-05-11T22:55:32 IST" duration-ms="48" status="SKIP">
+        <test-method signature="addcustomertest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@3e6ef8ad]" started-at="2020-05-24T11:59:55 IST" name="addcustomertest" data-provider="getdata" finished-at="2020-05-24T11:59:55 IST" duration-ms="9" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addcustomertest -->
-        <test-method signature="addcustomertest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@3e6ef8ad]" started-at="2020-05-11T22:55:32 IST" name="addcustomertest" data-provider="getdata" finished-at="2020-05-11T22:55:33 IST" duration-ms="556" status="PASS">
+        <test-method signature="addcustomertest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@3e6ef8ad]" started-at="2020-05-24T11:59:55 IST" name="addcustomertest" data-provider="getdata" finished-at="2020-05-24T11:59:55 IST" duration-ms="434" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,16 +94,16 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
         </test-method> <!-- addcustomertest -->
       </class> <!-- com.w2a.testcases.AddCustomerTest -->
     </test> <!-- testaddcustomer -->
-    <test started-at="2020-05-11T22:55:33 IST" name="testopenaccount" finished-at="2020-05-11T22:55:34 IST" duration-ms="1401">
+    <test started-at="2020-05-24T11:59:55 IST" name="testopenaccount" finished-at="2020-05-24T11:59:57 IST" duration-ms="1298">
       <class name="com.w2a.testcases.OpenAccount">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.w2a.testcases.OpenAccount@378542de]" started-at="2020-05-11T22:55:11 IST" name="setup" finished-at="2020-05-11T22:55:29 IST" duration-ms="18012" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.w2a.testcases.OpenAccount@378542de]" started-at="2020-05-24T11:59:48 IST" name="setup" finished-at="2020-05-24T11:59:52 IST" duration-ms="4323" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logged in]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="openaccounttest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.OpenAccount@378542de]" started-at="2020-05-11T22:55:33 IST" name="openaccounttest" data-provider="getdata" finished-at="2020-05-11T22:55:33 IST" duration-ms="39" status="SKIP">
+        <test-method signature="openaccounttest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.OpenAccount@378542de]" started-at="2020-05-24T11:59:55 IST" name="openaccounttest" data-provider="getdata" finished-at="2020-05-24T11:59:55 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -170,7 +170,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openaccounttest -->
-        <test-method signature="openaccounttest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.OpenAccount@378542de]" started-at="2020-05-11T22:55:33 IST" name="openaccounttest" data-provider="getdata" finished-at="2020-05-11T22:55:34 IST" duration-ms="1231" status="PASS">
+        <test-method signature="openaccounttest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.OpenAccount@378542de]" started-at="2020-05-24T11:59:55 IST" name="openaccounttest" data-provider="getdata" finished-at="2020-05-24T11:59:57 IST" duration-ms="1156" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -196,7 +196,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openaccounttest -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.w2a.testcases.OpenAccount@378542de]" started-at="2020-05-11T22:55:34 IST" name="Teardown" finished-at="2020-05-11T22:55:38 IST" duration-ms="3979" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.w2a.testcases.OpenAccount@378542de]" started-at="2020-05-24T11:59:57 IST" name="Teardown" finished-at="2020-05-24T11:59:57 IST" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->

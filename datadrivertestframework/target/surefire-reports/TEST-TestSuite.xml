@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="2.617" tests="6" errors="0" skipped="2" failures="0">
+<testsuite name="TestSuite" time="1.439" tests="6" errors="0" skipped="2" failures="0">
   <properties>
     <property name="JOB_NAME" value="Jenkintest"/>
     <property name="java.vendor" value="Ubuntu"/>
@@ -22,16 +22,16 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="XDG_RUNTIME_DIR" value="/run/user/1000"/>
     <property name="NODE_LABELS" value="master"/>
-    <property name="WINDOWID" value="75497475"/>
+    <property name="WINDOWID" value="79691779"/>
     <property name="java.runtime.version" value="11.0.6+10-post-Ubuntu-1ubuntu118.04.1"/>
     <property name="XDG_SEAT" value="seat0"/>
     <property name="user.name" value="ashudeep"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="SSH_AGENT_PID" value="1518"/>
+    <property name="SSH_AGENT_PID" value="1657"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="Jenkintest"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Jenkintest/13/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#13"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Jenkintest/19/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#19"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
     <property name="QT_ACCESSIBILITY" value="1"/>
     <property name="DISPLAY" value=":0.0"/>
@@ -43,7 +43,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="TERM" value="xterm-256color"/>
-    <property name="BUILD_ID" value="13"/>
+    <property name="BUILD_ID" value="19"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="SHELL" value="/bin/bash"/>
@@ -59,8 +59,8 @@
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="LESSOPEN" value="| /usr/bin/lesspipe %s"/>
     <property name="os.version" value="5.0.0-32-generic"/>
-    <property name="SESSION_MANAGER" value="local/ashudeep-VivoBook-ASUSLaptop-X412DA-X412DA:@/tmp/.ICE-unix/1432,unix/ashudeep-VivoBook-ASUSLaptop-X412DA-X412DA:/tmp/.ICE-unix/1432"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Jenkintest/13/display/redirect"/>
+    <property name="SESSION_MANAGER" value="local/ashudeep-VivoBook-ASUSLaptop-X412DA-X412DA:@/tmp/.ICE-unix/1571,unix/ashudeep-VivoBook-ASUSLaptop-X412DA-X412DA:/tmp/.ICE-unix/1571"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Jenkintest/19/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
     <property name="path.separator" value=":"/>
@@ -78,7 +78,7 @@
     <property name="HOME" value="/home/ashudeep"/>
     <property name="POM_GROUPID" value="datadrivertestframework"/>
     <property name="user.home" value="/home/ashudeep"/>
-    <property name="BUILD_TAG" value="jenkins-Jenkintest-13"/>
+    <property name="BUILD_TAG" value="jenkins-Jenkintest-19"/>
     <property name="JENKINS_SERVER_COOKIE" value="228d0f67a7889333"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="java.version.date" value="2020-01-14"/>
@@ -94,7 +94,7 @@
     <property name="maven.home" value="/home/ashudeep/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven"/>
     <property name="XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0"/>
     <property name="java.class.path" value="/home/ashudeep/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/home/ashudeep/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven/boot/plexus-classworlds-2.6.0.jar:/home/ashudeep/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /home/ashudeep/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven /home/ashudeep/.jenkins/war/WEB-INF/lib/remoting-4.2.jar /home/ashudeep/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /home/ashudeep/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 37179"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /home/ashudeep/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven /home/ashudeep/.jenkins/war/WEB-INF/lib/remoting-4.2.jar /home/ashudeep/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /home/ashudeep/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 36645"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.vm.specification.version" value="11"/>
@@ -110,20 +110,20 @@
     <property name="PATH+MAVEN" value="/home/ashudeep/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven/bin"/>
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
     <property name="LS_COLORS" value="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"/>
-    <property name="OLDPWD" value="/home/ashudeep/Downloads"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Jenkintest/13/"/>
-    <property name="SSH_AUTH_SOCK" value="/tmp/ssh-Q5c4q0HkGhLx/agent.1432"/>
+    <property name="OLDPWD" value="/home/ashudeep"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Jenkintest/19/"/>
+    <property name="SSH_AUTH_SOCK" value="/tmp/ssh-74dFicHBQBMJ/agent.1571"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="PANEL_GDK_CORE_DEVICE_EVENTS" value="0"/>
-    <property name="user.dir" value="/home/ashudeep/eclipse-workspace/datadrivertestframework"/>
+    <property name="user.dir" value="/home/ashudeep/git/repository/datadrivertestframework"/>
     <property name="JOB_URL" value="http://localhost:8080/job/Jenkintest/"/>
-    <property name="browser" value="firefox"/>
+    <property name="browser" value="chrome"/>
     <property name="MAVEN_HOME" value="/home/ashudeep/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven"/>
     <property name="XAUTHORITY" value="/home/ashudeep/.Xauthority"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="13"/>
+    <property name="BUILD_NUMBER" value="19"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="COLORTERM" value="truecolor"/>
     <property name="QT_QPA_PLATFORMTHEME" value="qt5ct"/>
@@ -139,23 +139,17 @@
     <property name="LANGUAGE" value="en_IN:en"/>
     <property name="USER" value="ashudeep"/>
   </properties>
-  <testcase name="logintest" classname="com.w2a.testcases.LoginClass" time="1.684"/>
-  <testcase name="addcustomertest" classname="com.w2a.testcases.AddCustomerTest" time="0.933"/>
+  <testcase name="logintest" classname="com.w2a.testcases.LoginClass" time="0.248"/>
+  <testcase name="addcustomertest" classname="com.w2a.testcases.AddCustomerTest" time="1.191"/>
   <testcase name="addcustomertest" classname="com.w2a.testcases.AddCustomerTest" time="0">
     <skipped/>
-    <system-out><![CDATA[Test case from excel = logintest
-Test case from excel = addcustomertest
-]]></system-out>
   </testcase>
-  <testcase name="addcustomertest" classname="com.w2a.testcases.AddCustomerTest" time="0.556"/>
+  <testcase name="addcustomertest" classname="com.w2a.testcases.AddCustomerTest" time="0.433"/>
   <testcase name="openaccounttest" classname="com.w2a.testcases.OpenAccount" time="0">
     <skipped/>
     <system-out><![CDATA[sheetname = OpenAccountTest
 rows=3
-Test case from excel = logintest
-Test case from excel = addcustomertest
-Test case from excel = openaccounttest
 ]]></system-out>
   </testcase>
-  <testcase name="openaccounttest" classname="com.w2a.testcases.OpenAccount" time="1.231"/>
+  <testcase name="openaccounttest" classname="com.w2a.testcases.OpenAccount" time="1.157"/>
 </testsuite>
